@@ -1,8 +1,9 @@
+import { SafeAreaView } from 'react-native-safe-area-context'
 import styled from "styled-components/native";
 import { CaretLeft } from 'phosphor-react-native'
 
 
-export const Container = styled.View`
+export const Container = styled(SafeAreaView)`
 width: 100%;
 
 flex-direction: row;
